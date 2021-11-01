@@ -1,0 +1,134 @@
+html, body { 
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	font-family:Courier;
+}
+h1 {
+	font-weight:lighter;
+	font-size:37px;
+	color:#efefef;
+	text-align:center;
+	text-shadow:1px 1px 1px black;
+}
+.contador {
+	position:relative;
+	bottom:0;
+	left:0;
+	margin:25px auto;
+	font-family:courier;
+	font-size:13pt;
+	color:white;
+	text-align:center;
+	text-shadow:1px 1px 1px #000;
+	background:silver;
+	border-top:1px dotted gray;
+	width:100%;
+	padding:5px 0 5px 0;
+}
+input, select, button {
+	padding:5px;
+	border:1px solid gray;
+	width:177px;
+}
+a {
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+a:hover {
+	text-decoration:none;
+}
+#site {
+	position:absolute;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+#conteudo {
+	position:relative;
+	top:15px;
+	width:500px; 
+	margin:0 auto;
+}
+/*** GAME ***/
+#gameBegin {
+	border:1px solid silver;
+}
+#gameBegin > * {
+	text-align:center;
+}
+#gameBegin h3, #status {
+	color:#efefef;
+	text-shadow:1px 1px 1px #000;
+}
+#gameBegin p {
+	line-height:25px;
+}
+#tabuleiro {
+	width:370px;
+	height:370px;
+	margin:0 auto;
+	display:none;
+}
+#game_menu {
+	font-size:0.8em;
+}
+#game_menu, #game_menu a {
+	padding:5px;
+	background:black;
+	color:white;
+	text-decoration:none;
+	border:1px dotted black;
+}
+#game_menu a:hover {
+	background:white;
+	color:black;
+}
+#status {
+	font-size:1.2em;
+}
+.div1, .div2, .div3, .div4 {
+	display:block;
+	float:left;
+}
+.div1 {
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+}
+.div2 {
+	border-right:1px solid gray;
+}
+.div3 {
+	border-bottom:1px solid gray;
+}
+.div4 {
+	border:0;
+}
+.div_inner {
+	width:100px;
+	height:100px;
+	padding:5px;
+	line-height:95px;
+	font-weight:bolder;
+	font-family:Courier; 
+	font-size:55px;
+	cursor:pointer;
+}
+.bola {
+	color:red;
+}
+.xis {
+	color:blue;
+}
+.ok {
+	text-decoration:line-through;
+	color:green !important;
+}
